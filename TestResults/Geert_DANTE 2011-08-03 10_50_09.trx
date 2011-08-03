@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="43f912b6-42df-4878-8596-b978c35d890d" name="Geert@DANTE 2011-08-03 10:50:09" runUser="DANTE\Geert" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5a8f1c0c-66b1-48e4-929b-7d94eb1600d3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Geert_DANTE 2011-08-03 10_50_09">
+      <DeploymentItem filename="D:\dotnetWorks\dbgen\dbgen\bin\Debug\dbgen.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-08-03T10:50:09.5523939+02:00" queuing="2011-08-03T10:50:10.5423953+02:00" start="2011-08-03T10:50:10.7023956+02:00" finish="2011-08-03T10:50:39.7754515+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetScriptFileTimeStamp_Default" storage="d:\dotnetworks\dbgen\dbgen.tests\bin\debug\dbgen.tests.dll" id="62192c1f-5084-a354-f1eb-4f61c7279af9">
+      <Execution id="f21c7ffe-7f2f-4b03-b96a-dfbfde06c7cb" />
+      <TestMethod codeBase="D:/dotnetWorks/dbgen/dbgen.Tests/bin/Debug/dbgen.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="dbgen.Tests.ScriptFileHelperTest, dbgen.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetScriptFileTimeStamp_Default" />
+    </UnitTest>
+    <UnitTest name="GetScriptFileTimeStamp_Empty" storage="d:\dotnetworks\dbgen\dbgen.tests\bin\debug\dbgen.tests.dll" id="36349fa0-9256-4def-980c-c2a738ac8edb">
+      <Execution id="c3ea7140-01cf-4efa-a6f5-56be55c4f3c5" />
+      <TestMethod codeBase="D:/dotnetWorks/dbgen/dbgen.Tests/bin/Debug/dbgen.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="dbgen.Tests.ScriptFileHelperTest, dbgen.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetScriptFileTimeStamp_Empty" />
+    </UnitTest>
+    <UnitTest name="GetScriptFileTimeStamp_WrongFile" storage="d:\dotnetworks\dbgen\dbgen.tests\bin\debug\dbgen.tests.dll" id="2469edda-bfa9-e27f-fbda-c34aaedc5dac">
+      <Execution id="9f5c6a5a-409b-4ad7-a7ce-50b13d70c5c8" />
+      <TestMethod codeBase="D:/dotnetWorks/dbgen/dbgen.Tests/bin/Debug/dbgen.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="dbgen.Tests.ScriptFileHelperTest, dbgen.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetScriptFileTimeStamp_WrongFile" />
+    </UnitTest>
+    <UnitTest name="GetScriptFileTimeStamp_TwoUnderscores" storage="d:\dotnetworks\dbgen\dbgen.tests\bin\debug\dbgen.tests.dll" id="e887175c-ed7c-ef44-f0bd-336d9886183b">
+      <Execution id="e2d15ad0-7296-4145-9604-5b4d103880a3" />
+      <TestMethod codeBase="D:/dotnetWorks/dbgen/dbgen.Tests/bin/Debug/dbgen.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="dbgen.Tests.ScriptFileHelperTest, dbgen.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetScriptFileTimeStamp_TwoUnderscores" />
+    </UnitTest>
+    <UnitTest name="GetScriptFileTimeStamp_Null" storage="d:\dotnetworks\dbgen\dbgen.tests\bin\debug\dbgen.tests.dll" id="9d5a688e-59a3-2893-a191-b6ed823a8985">
+      <Execution id="724b6b7f-12d5-4d2c-9de5-afa83ec0c5e1" />
+      <TestMethod codeBase="D:/dotnetWorks/dbgen/dbgen.Tests/bin/Debug/dbgen.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="dbgen.Tests.ScriptFileHelperTest, dbgen.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetScriptFileTimeStamp_Null" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="36349fa0-9256-4def-980c-c2a738ac8edb" executionId="c3ea7140-01cf-4efa-a6f5-56be55c4f3c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9d5a688e-59a3-2893-a191-b6ed823a8985" executionId="724b6b7f-12d5-4d2c-9de5-afa83ec0c5e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="62192c1f-5084-a354-f1eb-4f61c7279af9" executionId="f21c7ffe-7f2f-4b03-b96a-dfbfde06c7cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2469edda-bfa9-e27f-fbda-c34aaedc5dac" executionId="9f5c6a5a-409b-4ad7-a7ce-50b13d70c5c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e887175c-ed7c-ef44-f0bd-336d9886183b" executionId="e2d15ad0-7296-4145-9604-5b4d103880a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c3ea7140-01cf-4efa-a6f5-56be55c4f3c5" testId="36349fa0-9256-4def-980c-c2a738ac8edb" testName="GetScriptFileTimeStamp_Empty" computerName="DANTE" duration="00:00:00.0154006" startTime="2011-08-03T10:50:10.8623958+02:00" endTime="2011-08-03T10:50:11.7523970+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c3ea7140-01cf-4efa-a6f5-56be55c4f3c5">
+    </UnitTestResult>
+    <UnitTestResult executionId="724b6b7f-12d5-4d2c-9de5-afa83ec0c5e1" testId="9d5a688e-59a3-2893-a191-b6ed823a8985" testName="GetScriptFileTimeStamp_Null" computerName="DANTE" duration="00:00:00.0001818" startTime="2011-08-03T10:50:11.7523970+02:00" endTime="2011-08-03T10:50:11.7623970+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="724b6b7f-12d5-4d2c-9de5-afa83ec0c5e1">
+    </UnitTestResult>
+    <UnitTestResult executionId="f21c7ffe-7f2f-4b03-b96a-dfbfde06c7cb" testId="62192c1f-5084-a354-f1eb-4f61c7279af9" testName="GetScriptFileTimeStamp_Default" computerName="DANTE" duration="00:00:00.0001917" startTime="2011-08-03T10:50:11.7623970+02:00" endTime="2011-08-03T10:50:11.7723971+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f21c7ffe-7f2f-4b03-b96a-dfbfde06c7cb">
+    </UnitTestResult>
+    <UnitTestResult executionId="9f5c6a5a-409b-4ad7-a7ce-50b13d70c5c8" testId="2469edda-bfa9-e27f-fbda-c34aaedc5dac" testName="GetScriptFileTimeStamp_WrongFile" computerName="DANTE" duration="00:00:27.9077318" startTime="2011-08-03T10:50:11.7723971+02:00" endTime="2011-08-03T10:50:39.6954514+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f5c6a5a-409b-4ad7-a7ce-50b13d70c5c8">
+    </UnitTestResult>
+    <UnitTestResult executionId="e2d15ad0-7296-4145-9604-5b4d103880a3" testId="e887175c-ed7c-ef44-f0bd-336d9886183b" testName="GetScriptFileTimeStamp_TwoUnderscores" computerName="DANTE" duration="00:00:00.0001850" startTime="2011-08-03T10:50:39.7054514+02:00" endTime="2011-08-03T10:50:39.7054514+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2d15ad0-7296-4145-9604-5b4d103880a3">
+    </UnitTestResult>
+  </Results>
+</TestRun>

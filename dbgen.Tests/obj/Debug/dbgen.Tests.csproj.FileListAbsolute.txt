@@ -1,0 +1,14 @@
+c:\dotnetWorks\dbgen\dbgen.Tests\bin\Debug\dbgen.Tests.dll
+c:\dotnetWorks\dbgen\dbgen.Tests\bin\Debug\dbgen.Tests.pdb
+c:\dotnetWorks\dbgen\dbgen.Tests\bin\Debug\dbgen.exe
+c:\dotnetWorks\dbgen\dbgen.Tests\bin\Debug\dbgen.pdb
+c:\dotnetWorks\dbgen\dbgen.Tests\obj\Debug\ResolveAssemblyReference.cache
+c:\dotnetWorks\dbgen\dbgen.Tests\obj\Debug\dbgen.Tests.dll
+c:\dotnetWorks\dbgen\dbgen.Tests\obj\Debug\dbgen.Tests.pdb
+D:\dotnetWorks\dbgen\dbgen.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\dotnetWorks\dbgen\dbgen.Tests\obj\Debug\dbgen.Tests.dll
+D:\dotnetWorks\dbgen\dbgen.Tests\bin\Debug\dbgen.Tests.dll
+D:\dotnetWorks\dbgen\dbgen.Tests\bin\Debug\dbgen.Tests.pdb
+D:\dotnetWorks\dbgen\dbgen.Tests\bin\Debug\dbgen.exe
+D:\dotnetWorks\dbgen\dbgen.Tests\bin\Debug\dbgen.pdb
+D:\dotnetWorks\dbgen\dbgen.Tests\obj\Debug\dbgen.Tests.pdb

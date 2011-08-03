@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ecb2d35c-1b46-4fa5-9ba4-4f32a487ee6d" name="Geert@DANTE 2011-08-03 10:52:48" runUser="DANTE\Geert" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5a8f1c0c-66b1-48e4-929b-7d94eb1600d3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Geert_DANTE 2011-08-03 10_52_48">
+      <DeploymentItem filename="D:\dotnetWorks\dbgen\dbgen\bin\Debug\dbgen.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-08-03T10:52:48.6758295+02:00" queuing="2011-08-03T10:52:48.8058297+02:00" start="2011-08-03T10:52:48.8058297+02:00" finish="2011-08-03T10:52:48.9858299+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetScriptPath_Empty" storage="d:\dotnetworks\dbgen\dbgen.tests\bin\debug\dbgen.tests.dll" id="a9b7b617-f9f1-d964-b864-930a422eba3a">
+      <Execution id="ea2e1111-9a77-42f1-9737-4d21b07229d8" />
+      <TestMethod codeBase="D:/dotnetWorks/dbgen/dbgen.Tests/bin/Debug/dbgen.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="dbgen.Tests.ScriptFileHelperTest, dbgen.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetScriptPath_Empty" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a9b7b617-f9f1-d964-b864-930a422eba3a" executionId="ea2e1111-9a77-42f1-9737-4d21b07229d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ea2e1111-9a77-42f1-9737-4d21b07229d8" testId="a9b7b617-f9f1-d964-b864-930a422eba3a" testName="GetScriptPath_Empty" computerName="DANTE" duration="00:00:00.0290560" startTime="2011-08-03T10:52:48.8158297+02:00" endTime="2011-08-03T10:52:48.9758299+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea2e1111-9a77-42f1-9737-4d21b07229d8">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;&gt;. Actual:&lt;D:\dotnetWorks\dbgen\TestResults\Geert_DANTE 2011-08-03 10_52_48\Out&gt;. </Message>
+          <StackTrace>   at dbgen.Tests.ScriptFileHelperTest.GetScriptPath_Empty() in D:\dotnetWorks\dbgen\dbgen.Tests\ScriptFileHelperTest.cs:line 76
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

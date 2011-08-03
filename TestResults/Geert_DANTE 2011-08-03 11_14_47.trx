@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1a78a278-fcff-491a-aa88-bf7830d71340" name="Geert@DANTE 2011-08-03 11:14:47" runUser="DANTE\Geert" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5a8f1c0c-66b1-48e4-929b-7d94eb1600d3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Geert_DANTE 2011-08-03 11_14_47">
+      <DeploymentItem filename="D:\dotnetWorks\dbgen\dbgen\bin\Debug\dbgen.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-08-03T11:14:47.7984996+02:00" queuing="2011-08-03T11:14:48.7985010+02:00" start="2011-08-03T11:14:48.9685013+02:00" finish="2011-08-03T11:15:17.1585407+02:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DANTE" outcome="Error" timestamp="2011-08-03T11:15:17.1485407+02:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetScriptFiles_Expected_3_Files" storage="d:\dotnetworks\dbgen\dbgen.tests\bin\debug\dbgen.tests.dll" id="9fdbc681-ce25-4296-c01e-da3c8048e548">
+      <Execution id="fa9f5e4c-2d3a-4e58-a71a-577f3d2fd72c" />
+      <TestMethod codeBase="D:/dotnetWorks/dbgen/dbgen.Tests/bin/Debug/dbgen.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="dbgen.Tests.ScriptFileHelperTest, dbgen.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetScriptFiles_Expected_3_Files" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9fdbc681-ce25-4296-c01e-da3c8048e548" executionId="fa9f5e4c-2d3a-4e58-a71a-577f3d2fd72c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="fa9f5e4c-2d3a-4e58-a71a-577f3d2fd72c" testId="9fdbc681-ce25-4296-c01e-da3c8048e548" testName="GetScriptFiles_Expected_3_Files" computerName="DANTE" duration="00:00:28.0200392" startTime="2011-08-03T11:14:49.1385015+02:00" endTime="2011-08-03T11:15:17.1585407+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa9f5e4c-2d3a-4e58-a71a-577f3d2fd72c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

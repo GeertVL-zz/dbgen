@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1a08e926-f5de-4944-ba18-cab725632729" name="Geert@DANTE 2011-08-03 10:56:58" runUser="DANTE\Geert" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5a8f1c0c-66b1-48e4-929b-7d94eb1600d3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Geert_DANTE 2011-08-03 10_56_58">
+      <DeploymentItem filename="D:\dotnetWorks\dbgen\dbgen\bin\Debug\dbgen.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-08-03T10:56:58.4545010+02:00" queuing="2011-08-03T10:56:58.5245011+02:00" start="2011-08-03T10:56:58.5345011+02:00" finish="2011-08-03T10:56:58.7245014+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="9" executed="9" passed="9" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetScriptFileTimeStamp_WrongFile" storage="d:\dotnetworks\dbgen\dbgen.tests\bin\debug\dbgen.tests.dll" id="2469edda-bfa9-e27f-fbda-c34aaedc5dac">
+      <Execution id="1926fc5f-b7a8-4339-82cc-7adcd7522554" />
+      <TestMethod codeBase="D:/dotnetWorks/dbgen/dbgen.Tests/bin/Debug/dbgen.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="dbgen.Tests.ScriptFileHelperTest, dbgen.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetScriptFileTimeStamp_WrongFile" />
+    </UnitTest>
+    <UnitTest name="GetScriptFileTimeStamp_Empty" storage="d:\dotnetworks\dbgen\dbgen.tests\bin\debug\dbgen.tests.dll" id="36349fa0-9256-4def-980c-c2a738ac8edb">
+      <Execution id="510453a4-041b-47d2-8e85-e0eb807d6098" />
+      <TestMethod codeBase="D:/dotnetWorks/dbgen/dbgen.Tests/bin/Debug/dbgen.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="dbgen.Tests.ScriptFileHelperTest, dbgen.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetScriptFileTimeStamp_Empty" />
+    </UnitTest>
+    <UnitTest name="GetScriptPath_CurrentDir" storage="d:\dotnetworks\dbgen\dbgen.tests\bin\debug\dbgen.tests.dll" id="b820de05-cd05-5b2f-5b83-4ca1afa32d03">
+      <Execution id="9fd41c24-281e-42ad-a86b-f958dbb18451" />
+      <TestMethod codeBase="D:/dotnetWorks/dbgen/dbgen.Tests/bin/Debug/dbgen.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="dbgen.Tests.ScriptFileHelperTest, dbgen.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetScriptPath_CurrentDir" />
+    </UnitTest>
+    <UnitTest name="GetScriptFileTimeStamp_TwoUnderscores" storage="d:\dotnetworks\dbgen\dbgen.tests\bin\debug\dbgen.tests.dll" id="e887175c-ed7c-ef44-f0bd-336d9886183b">
+      <Execution id="0ebd4fea-095f-4848-84ec-b53fdb4feec6" />
+      <TestMethod codeBase="D:/dotnetWorks/dbgen/dbgen.Tests/bin/Debug/dbgen.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="dbgen.Tests.ScriptFileHelperTest, dbgen.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetScriptFileTimeStamp_TwoUnderscores" />
+    </UnitTest>
+    <UnitTest name="GetScriptPath_PathNull" storage="d:\dotnetworks\dbgen\dbgen.tests\bin\debug\dbgen.tests.dll" id="60f1778d-b594-ad2a-59a9-06a39ec4b1e5">
+      <Execution id="3f7518d1-5605-4b49-8572-eed2a1347958" />
+      <TestMethod codeBase="D:/dotnetWorks/dbgen/dbgen.Tests/bin/Debug/dbgen.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="dbgen.Tests.ScriptFileHelperTest, dbgen.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetScriptPath_PathNull" />
+    </UnitTest>
+    <UnitTest name="GetScriptFileTimeStamp_Default" storage="d:\dotnetworks\dbgen\dbgen.tests\bin\debug\dbgen.tests.dll" id="62192c1f-5084-a354-f1eb-4f61c7279af9">
+      <Execution id="f34f718a-0f43-4d59-9038-649b529496ec" />
+      <TestMethod codeBase="D:/dotnetWorks/dbgen/dbgen.Tests/bin/Debug/dbgen.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="dbgen.Tests.ScriptFileHelperTest, dbgen.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetScriptFileTimeStamp_Default" />
+    </UnitTest>
+    <UnitTest name="GetScriptPath_PathSpecified" storage="d:\dotnetworks\dbgen\dbgen.tests\bin\debug\dbgen.tests.dll" id="ceab9d55-5207-0187-f6d1-897650253d31">
+      <Execution id="874b2812-43bd-4210-b42d-57ba7da17396" />
+      <TestMethod codeBase="D:/dotnetWorks/dbgen/dbgen.Tests/bin/Debug/dbgen.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="dbgen.Tests.ScriptFileHelperTest, dbgen.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetScriptPath_PathSpecified" />
+    </UnitTest>
+    <UnitTest name="GetScriptPath_PathEmpty" storage="d:\dotnetworks\dbgen\dbgen.tests\bin\debug\dbgen.tests.dll" id="3909de38-7848-39ee-383f-9b8782bd4167">
+      <Execution id="a1248fc3-eb03-4d42-91e2-0bf954bae914" />
+      <TestMethod codeBase="D:/dotnetWorks/dbgen/dbgen.Tests/bin/Debug/dbgen.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="dbgen.Tests.ScriptFileHelperTest, dbgen.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetScriptPath_PathEmpty" />
+    </UnitTest>
+    <UnitTest name="GetScriptFileTimeStamp_Null" storage="d:\dotnetworks\dbgen\dbgen.tests\bin\debug\dbgen.tests.dll" id="9d5a688e-59a3-2893-a191-b6ed823a8985">
+      <Execution id="c8120e04-94d5-448b-9be4-1b24ef603ad2" />
+      <TestMethod codeBase="D:/dotnetWorks/dbgen/dbgen.Tests/bin/Debug/dbgen.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="dbgen.Tests.ScriptFileHelperTest, dbgen.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetScriptFileTimeStamp_Null" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="36349fa0-9256-4def-980c-c2a738ac8edb" executionId="510453a4-041b-47d2-8e85-e0eb807d6098" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9d5a688e-59a3-2893-a191-b6ed823a8985" executionId="c8120e04-94d5-448b-9be4-1b24ef603ad2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="62192c1f-5084-a354-f1eb-4f61c7279af9" executionId="f34f718a-0f43-4d59-9038-649b529496ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2469edda-bfa9-e27f-fbda-c34aaedc5dac" executionId="1926fc5f-b7a8-4339-82cc-7adcd7522554" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e887175c-ed7c-ef44-f0bd-336d9886183b" executionId="0ebd4fea-095f-4848-84ec-b53fdb4feec6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b820de05-cd05-5b2f-5b83-4ca1afa32d03" executionId="9fd41c24-281e-42ad-a86b-f958dbb18451" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ceab9d55-5207-0187-f6d1-897650253d31" executionId="874b2812-43bd-4210-b42d-57ba7da17396" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3909de38-7848-39ee-383f-9b8782bd4167" executionId="a1248fc3-eb03-4d42-91e2-0bf954bae914" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="60f1778d-b594-ad2a-59a9-06a39ec4b1e5" executionId="3f7518d1-5605-4b49-8572-eed2a1347958" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="510453a4-041b-47d2-8e85-e0eb807d6098" testId="36349fa0-9256-4def-980c-c2a738ac8edb" testName="GetScriptFileTimeStamp_Empty" computerName="DANTE" duration="00:00:00.0178251" startTime="2011-08-03T10:56:58.5345011+02:00" endTime="2011-08-03T10:56:58.6845013+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="510453a4-041b-47d2-8e85-e0eb807d6098">
+    </UnitTestResult>
+    <UnitTestResult executionId="c8120e04-94d5-448b-9be4-1b24ef603ad2" testId="9d5a688e-59a3-2893-a191-b6ed823a8985" testName="GetScriptFileTimeStamp_Null" computerName="DANTE" duration="00:00:00.0001326" startTime="2011-08-03T10:56:58.6845013+02:00" endTime="2011-08-03T10:56:58.6845013+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8120e04-94d5-448b-9be4-1b24ef603ad2">
+    </UnitTestResult>
+    <UnitTestResult executionId="f34f718a-0f43-4d59-9038-649b529496ec" testId="62192c1f-5084-a354-f1eb-4f61c7279af9" testName="GetScriptFileTimeStamp_Default" computerName="DANTE" duration="00:00:00.0001403" startTime="2011-08-03T10:56:58.6945014+02:00" endTime="2011-08-03T10:56:58.6945014+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f34f718a-0f43-4d59-9038-649b529496ec">
+    </UnitTestResult>
+    <UnitTestResult executionId="1926fc5f-b7a8-4339-82cc-7adcd7522554" testId="2469edda-bfa9-e27f-fbda-c34aaedc5dac" testName="GetScriptFileTimeStamp_WrongFile" computerName="DANTE" duration="00:00:00.0001198" startTime="2011-08-03T10:56:58.6945014+02:00" endTime="2011-08-03T10:56:58.6945014+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1926fc5f-b7a8-4339-82cc-7adcd7522554">
+    </UnitTestResult>
+    <UnitTestResult executionId="0ebd4fea-095f-4848-84ec-b53fdb4feec6" testId="e887175c-ed7c-ef44-f0bd-336d9886183b" testName="GetScriptFileTimeStamp_TwoUnderscores" computerName="DANTE" duration="00:00:00.0001294" startTime="2011-08-03T10:56:58.6945014+02:00" endTime="2011-08-03T10:56:58.6945014+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ebd4fea-095f-4848-84ec-b53fdb4feec6">
+    </UnitTestResult>
+    <UnitTestResult executionId="9fd41c24-281e-42ad-a86b-f958dbb18451" testId="b820de05-cd05-5b2f-5b83-4ca1afa32d03" testName="GetScriptPath_CurrentDir" computerName="DANTE" duration="00:00:00.0005982" startTime="2011-08-03T10:56:58.7045014+02:00" endTime="2011-08-03T10:56:58.7045014+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9fd41c24-281e-42ad-a86b-f958dbb18451">
+    </UnitTestResult>
+    <UnitTestResult executionId="874b2812-43bd-4210-b42d-57ba7da17396" testId="ceab9d55-5207-0187-f6d1-897650253d31" testName="GetScriptPath_PathSpecified" computerName="DANTE" duration="00:00:00.0001764" startTime="2011-08-03T10:56:58.7045014+02:00" endTime="2011-08-03T10:56:58.7045014+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="874b2812-43bd-4210-b42d-57ba7da17396">
+    </UnitTestResult>
+    <UnitTestResult executionId="a1248fc3-eb03-4d42-91e2-0bf954bae914" testId="3909de38-7848-39ee-383f-9b8782bd4167" testName="GetScriptPath_PathEmpty" computerName="DANTE" duration="00:00:00.0001626" startTime="2011-08-03T10:56:58.7045014+02:00" endTime="2011-08-03T10:56:58.7045014+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1248fc3-eb03-4d42-91e2-0bf954bae914">
+    </UnitTestResult>
+    <UnitTestResult executionId="3f7518d1-5605-4b49-8572-eed2a1347958" testId="60f1778d-b594-ad2a-59a9-06a39ec4b1e5" testName="GetScriptPath_PathNull" computerName="DANTE" duration="00:00:00.0001629" startTime="2011-08-03T10:56:58.7045014+02:00" endTime="2011-08-03T10:56:58.7145014+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f7518d1-5605-4b49-8572-eed2a1347958">
+    </UnitTestResult>
+  </Results>
+</TestRun>

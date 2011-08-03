@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f6818be6-1978-47f2-8fd5-2c4714f48164" name="Geert@DANTE 2011-08-03 11:02:53" runUser="DANTE\Geert" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5a8f1c0c-66b1-48e4-929b-7d94eb1600d3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Geert_DANTE 2011-08-03 11_02_53">
+      <DeploymentItem filename="D:\dotnetWorks\dbgen\dbgen\bin\Debug\dbgen.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-08-03T11:02:53.6712978+02:00" queuing="2011-08-03T11:02:53.7112978+02:00" start="2011-08-03T11:02:53.7212978+02:00" finish="2011-08-03T11:02:53.9012981+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Compare_Right" storage="d:\dotnetworks\dbgen\dbgen.tests\bin\debug\dbgen.tests.dll" id="6489dbb5-1740-8c20-53f5-c92cf8b75d09">
+      <Execution id="bc4b20da-c781-4320-aa45-bec4d5d59cac" />
+      <TestMethod codeBase="D:/dotnetWorks/dbgen/dbgen.Tests/bin/Debug/dbgen.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="dbgen.Tests.TimestampComparerTest, dbgen.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Compare_Right" />
+    </UnitTest>
+    <UnitTest name="Compare_Left" storage="d:\dotnetworks\dbgen\dbgen.tests\bin\debug\dbgen.tests.dll" id="8b68b881-60fc-5bf3-3e00-b9a4ca1c1f15">
+      <Execution id="9f8ce3c6-e802-4854-b6e5-5321d321c412" />
+      <TestMethod codeBase="D:/dotnetWorks/dbgen/dbgen.Tests/bin/Debug/dbgen.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="dbgen.Tests.TimestampComparerTest, dbgen.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Compare_Left" />
+    </UnitTest>
+    <UnitTest name="Compare_Empty" storage="d:\dotnetworks\dbgen\dbgen.tests\bin\debug\dbgen.tests.dll" id="3253e96f-9660-2053-015f-36eb9145d184">
+      <Execution id="386240cc-663a-43f9-a337-6922d5e7897f" />
+      <TestMethod codeBase="D:/dotnetWorks/dbgen/dbgen.Tests/bin/Debug/dbgen.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="dbgen.Tests.TimestampComparerTest, dbgen.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Compare_Empty" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3253e96f-9660-2053-015f-36eb9145d184" executionId="386240cc-663a-43f9-a337-6922d5e7897f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b68b881-60fc-5bf3-3e00-b9a4ca1c1f15" executionId="9f8ce3c6-e802-4854-b6e5-5321d321c412" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6489dbb5-1740-8c20-53f5-c92cf8b75d09" executionId="bc4b20da-c781-4320-aa45-bec4d5d59cac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="386240cc-663a-43f9-a337-6922d5e7897f" testId="3253e96f-9660-2053-015f-36eb9145d184" testName="Compare_Empty" computerName="DANTE" duration="00:00:00.0111717" startTime="2011-08-03T11:02:53.7212978+02:00" endTime="2011-08-03T11:02:53.8712980+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="386240cc-663a-43f9-a337-6922d5e7897f">
+    </UnitTestResult>
+    <UnitTestResult executionId="9f8ce3c6-e802-4854-b6e5-5321d321c412" testId="8b68b881-60fc-5bf3-3e00-b9a4ca1c1f15" testName="Compare_Left" computerName="DANTE" duration="00:00:00.0001620" startTime="2011-08-03T11:02:53.8712980+02:00" endTime="2011-08-03T11:02:53.8712980+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f8ce3c6-e802-4854-b6e5-5321d321c412">
+    </UnitTestResult>
+    <UnitTestResult executionId="bc4b20da-c781-4320-aa45-bec4d5d59cac" testId="6489dbb5-1740-8c20-53f5-c92cf8b75d09" testName="Compare_Right" computerName="DANTE" duration="00:00:00.0001339" startTime="2011-08-03T11:02:53.8812980+02:00" endTime="2011-08-03T11:02:53.8812980+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc4b20da-c781-4320-aa45-bec4d5d59cac">
+    </UnitTestResult>
+  </Results>
+</TestRun>

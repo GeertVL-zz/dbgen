@@ -1,0 +1,12 @@
+c:\dotnetWorks\dbgen\dbgen\bin\Debug\dbgen.exe.config
+c:\dotnetWorks\dbgen\dbgen\bin\Debug\dbgen.exe
+c:\dotnetWorks\dbgen\dbgen\bin\Debug\dbgen.pdb
+c:\dotnetWorks\dbgen\dbgen\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\dotnetWorks\dbgen\dbgen\obj\x86\Debug\dbgen.exe
+c:\dotnetWorks\dbgen\dbgen\obj\x86\Debug\dbgen.pdb
+D:\dotnetWorks\dbgen\dbgen\bin\Debug\dbgen.exe.config
+D:\dotnetWorks\dbgen\dbgen\obj\x86\Debug\dbgen.exe
+D:\dotnetWorks\dbgen\dbgen\obj\x86\Debug\dbgen.pdb
+D:\dotnetWorks\dbgen\dbgen\bin\Debug\dbgen.exe
+D:\dotnetWorks\dbgen\dbgen\bin\Debug\dbgen.pdb
+D:\dotnetWorks\dbgen\dbgen\obj\x86\Debug\ResolveAssemblyReference.cache

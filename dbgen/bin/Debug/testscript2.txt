@@ -1,0 +1,12 @@
+CREATE TABLE [dbo].[ContactType] (
+    [ContactTypeID] INT          IDENTITY (1, 1) NOT NULL,
+    [Name]          INT NOT NULL,
+    [ModifiedDate]  DATETIME     NOT NULL
+);
+
+CREATE TABLE [dbo].[AddressType] (
+    [AddressTypeID] INT              IDENTITY (1, 1) NOT NULL,
+    [Name]          INT     NOT NULL,
+    [rowguid]       UNIQUEIDENTIFIER ROWGUIDCOL NOT NULL,
+    [ModifiedDate]  DATETIME         NOT NULL
+);
